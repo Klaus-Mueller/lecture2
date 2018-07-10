@@ -5,3 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "Hello, world!"
+
+@app.route("/klaus")
+def klaus():
+    return "Hello Klaus!! How are you my friend?"
