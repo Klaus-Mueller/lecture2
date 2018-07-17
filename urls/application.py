@@ -9,3 +9,7 @@ def index():
 @app.route("/more")
 def more():
     return render_template("more.html")
+
+@app.route("/plusmore")
+def plusMore():
+    return render_template("plusmore.html")
